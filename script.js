@@ -15,3 +15,12 @@ function valider_formulaire() {
     }, 400);
   
 }
+
+jQuery(function($){
+  $("[contenteditable]").focusout(function(){
+      var element = $(this);        
+      if (!element.text().trim().length) {
+          element.empty();
+      }
+  });
+});
