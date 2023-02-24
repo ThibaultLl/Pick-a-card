@@ -10,7 +10,12 @@ body {
   text-align: center;
   font-family: "Roboto Mono";
   padding: 1em;
+  user-select: none !important;
+  -webkit-user-select: none !important;
+  -webkit-touch-callout: none !important;
+  -webkit-user-select: none !important;
 }
+
 
 h1 {
   font-size: 2.2em;

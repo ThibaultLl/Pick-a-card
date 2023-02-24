@@ -24,3 +24,8 @@ jQuery(function($){
       }
   });
 });
+
+function longClickHandler(e){
+  e.preventDefault();
+  
+}
