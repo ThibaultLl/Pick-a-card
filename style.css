@@ -114,10 +114,14 @@ button[disabled] {
 .flip.flip-vertical:active > .front {
   -webkit-transform: rotateX(180deg);
   transform: rotateX(180deg);
+  -webkit-perspective: 900000px;
+  perspective: 900000px;
 }
 .flip.flip-vertical:active > .back {
   -webkit-transform: rotateX(0deg);
   transform: rotateX(0deg);
+  -webkit-perspective: 900000px;
+  perspective: 900000px;
 }
 
 .flip {
